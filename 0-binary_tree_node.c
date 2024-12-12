@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include "binary_trees.h"
-typedef struct binary_tree_s
-{
-	int n;
-	struct binary_tree_s *parent;
-	struct binary_tree_s *left;
-	struct binary_tree_s *right;
-}
-binary_tree_t;
+/**
+ * binary_tree_node - Crea un nuevo nodo en el árbol binario
+ * @parent: Puntero al nodo padre
+ * @value: Valor a almacenar en el nodo
+ *
+ * Return: Puntero al nuevo nodo, o NULL si falla
+ */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
