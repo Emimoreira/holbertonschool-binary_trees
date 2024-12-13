@@ -6,7 +6,7 @@
  * @parent: Puntero al nodo en el que se debe insertar el hijo derecho.
  * @value: El valor que tendrá el nuevo nodo.
  *
- * Return: Puntero al nodo creado, o NULL en caso de error o si el padre es NULL.
+ * Return:Puntero al nodo creado o NULL en caso de error o si el padre es NULL.
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
