@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_preorder - Recorre el árbol en preorden y aplica una función a cada nodo.
+ * binary_tree_preorder - Recorre el árbol en preorden y aplica una funcon.
  * @tree: Puntero a la raíz del árbol a recorrer.
  * @func: Puntero a la función que se debe aplicar a cada nodo.
  */
