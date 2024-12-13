@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_nodes - Cuenta los nodos que tienen al menos un hijo en un árbol binario.
+ * binary_tree_nodes - Cuenta los nodos que tienen al menos un hijo.
  * @tree: Puntero a la raíz del árbol.
  *
  * Return: El número de nodos con al menos un hijo.
